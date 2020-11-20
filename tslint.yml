@@ -1,0 +1,11 @@
+defaultSeverity: error
+extends:
+  - tslint-eslint-rules
+  - tslint-config-ali
+  - tslint-config-prettier
+rules:
+  eofline: true
+  no-console: true
+  no-construct: true
+  no-debugger: true
+  no-reference: true
